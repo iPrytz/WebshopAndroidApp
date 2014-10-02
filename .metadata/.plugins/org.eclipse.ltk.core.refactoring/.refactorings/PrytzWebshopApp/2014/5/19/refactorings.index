@@ -1,0 +1,17 @@
+1399450341442	Copy compilation unit
+1399450762450	Pull up 'cookies' to 'BaseActivity'
+1399457224687	Rename field 'products'
+1399457253090	Rename local variable 'products'
+1399457291354	Rename local variable 'product'
+1399457333074	Rename local variable 'productView'
+1399459558714	Rename local variable 'post'
+1399539661881	Rename type 'LogOutActivity'
+1399540591842	Delete element
+1399540608112	Rename type 'MyActivity'
+1399542066341	Rename field 'name'
+1399542190445	Delete element
+1399544140695	Rename field 'grades'
+1399544148711	Rename local variable 'grades'
+1399635264978	Rename local variable 'allIsOk'
+1399635902662	Rename type 'CreateProductOnServer'
+1399635996641	Rename local variable 'createProductOnServer'

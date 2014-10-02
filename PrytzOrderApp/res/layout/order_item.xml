@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TextView
+        android:id="@+id/tw_order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" 
+        android:textSize="40sp"
+        android:layout_marginRight="5dp"/>
+	
+	   <TextView
+        android:id="@+id/tw_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tw_order_id"/>
+
+    <TextView
+        android:id="@+id/tw_user_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@id/tw_date"
+        android:layout_toRightOf="@id/tw_order_id"/>
+    
+    <TextView
+        android:id="@+id/tw_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tw_user_info" 
+        android:layout_toRightOf="@id/tw_order_id"/>
+    
+    <TextView
+        android:id="@+id/tw_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tw_address"
+        android:layout_toRightOf="@id/tw_order_id"/>
+    
+    <TextView
+        android:id="@+id/tw_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tw_cost"
+        android:layout_toRightOf="@id/tw_order_id"/>
+    
+</RelativeLayout>

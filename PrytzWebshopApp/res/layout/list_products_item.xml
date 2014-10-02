@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66FFFFFF">
+    
+    <ImageView 
+        android:id="@+id/thumbnail"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/picDescription"/>
+    
+    <TextView 
+        android:id="@+id/list_products_name"
+        android:layout_toRightOf="@id/thumbnail"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    
+    <Button 
+        android:id="@+id/button_buy"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_buy"/>
+    
+    <TextView 
+        android:id="@+id/list_products_description"
+        android:layout_below="@id/list_products_name"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_toLeftOf="@id/button_buy"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"/>
+    
+    <TextView 
+        android:id="@+id/list_products_categories"
+        android:layout_below="@id/list_products_description"
+        android:layout_toRightOf="@id/thumbnail"
+        android:layout_toLeftOf="@id/button_buy"
+        android:textSize="12sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+    
+</RelativeLayout>

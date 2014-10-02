@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_name_hint"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/product_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_price_hint"
+        android:singleLine="true" 
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/product_RRP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_RRP_hint"
+        android:singleLine="true" 
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/product_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_description_hint"
+        android:singleLine="true" />
+
+    <Spinner
+        android:id="@+id/product_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/product_categories_hint"
+        android:prompt="@string/product_categories_hint" />
+
+    <Button
+        android:id="@+id/button_submit_product"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="clickEvent"
+        android:text="@string/button_submit_product" />
+
+</LinearLayout>

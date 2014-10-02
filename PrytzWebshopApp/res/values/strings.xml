@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">Peskatuurii Appa</string>
+    <string name="button_submit_product">Save Product</string>
+    <string name="button_submit_category">Save Category</string>
+    <string name="button_buy">Buy</string>
+    
+    <string name="product_name_hint">Product name</string>
+    <string name="product_description_hint">Product description</string>
+    <string name="product_price_hint">Product Price</string>
+    <string name="product_RRP_hint">Product RRP</string>
+    <string name="product_categories_hint">Product categories</string>
+
+    
+    <string name="category_name_hint">Category name</string>
+    <string name="category_responsible_hint">Category responsible</string>
+    
+    <string name="login_menu">Login</string>
+    <string name="logout_menu">Logout</string>
+    <string name="list_products_menu">Products</string>
+    <string name="list_categories_menu">Categories</string>
+    <string name="create_products_menu">Create Products</string>
+    <string name="create_categories_menu">Create Categories</string>
+    
+    <string name="user_name_hint">Username</string>
+    <string name="user_password_hint">Password</string>
+    <string name="button_login">Login</string>
+    
+    <string name="picDescription">Picture</string>
+
+</resources>
